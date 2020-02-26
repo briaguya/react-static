@@ -1,48 +1,44 @@
-![React Static Logo](https://github.com/nozzle/react-static/raw/master/media/logo.png)
+![React Static Logo](https://github.com/react-static/react-static/raw/master/media/react-static-logo-2x.png)
 
-[![Travis CI Build Status](https://travis-ci.org/nozzle/react-static.svg?branch=master)](https://travis-ci.org/nozzle/react-static) [![David Dependancy Status](https://david-dm.org/nozzle/react-static.svg)](https://david-dm.org/nozzle/react-static) [![npm package v](https://img.shields.io/npm/v/react-static.svg)](https://www.npmjs.org/package/react-static) [![npm package dm](https://img.shields.io/npm/dm/react-static.svg)](https://npmjs.com/package/react-static) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/react-static)
-[![Github Stars](https://img.shields.io/github/stars/nozzle/react-static.svg?style=social&label=Star)](https://github.com/nozzle/react-static) [![Twitter Follow](https://img.shields.io/twitter/follow/nozzleio.svg?style=social&label=Follow)](https://twitter.com/nozzleio)
+[![Travis CI Build Status](https://travis-ci.org/react-static/react-static.svg?branch=master)](https://travis-ci.org/react-static/react-static) [![David Dependancy Status](https://david-dm.org/react-static/react-static.svg)](https://david-dm.org/react-static/react-static) [![npm package v](https://img.shields.io/npm/v/react-static.svg)](https://www.npmjs.org/package/react-static) [![npm package dm](https://img.shields.io/npm/dm/react-static.svg)](https://npmjs.com/package/react-static) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/react-static)
+[![Github Stars](https://img.shields.io/github/stars/react-static/react-static.svg?style=social&label=Star)](https://github.com/react-static/react-static) [![Twitter Follow](https://img.shields.io/twitter/follow/reactstaticjs.svg?style=social&label=Follow)](https://twitter.com/reactstaticjs)
 
 <br>
 <br>
+
+> You are viewing the docs for v7 of React Static. You can browse all historical versions via Github branches!
 
 # React Static
 
 A **progressive static-site generator** for React.
 
-[**Read the introduction article on Medium**](https://medium.com/@tannerlinsley/%EF%B8%8F-introducing-react-static-a-progressive-static-site-framework-for-react-3470d2a51ebc)
-
-React-Static is a fast, lightweight, and powerful framework for building static-progressive React applications and websites. It's been carefully designed to meet the highest standards of **SEO, site performance, and user/developer experience**.
-
-[![Sponsored By GraphCMS](https://github.com/nozzle/react-static/raw/master/media/graphcms.svg?sanitize=true)](http://graphcms.com/?ref=tlinsley)
+React-Static is a fast, lightweight, and powerful progressive static site generator based on React and its ecosystem. It resembles the simplicity and developer experience you're used to in tools like **Create React App** and has been carefully designed for **performance, flexibility, and user/developer experience**.
 
 ## Features
 
-- ⚛️ 100% React (or Preact!)
+- ⚛️ 100% React (and friends!)
 - 🚀 [Blazing](https://twitter.com/acdlite/status/974390255393505280) fast builds and performance.
-- 🚚 Data Agnostic. Supply your site with data from anywhere, **however you want**.
-- ✂️ Automatic code and data splitting for routes!
-- 💥 Instant page views via [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) pattern.
-- 🎯 Built for **SEO**.
-- 🥇 React-first developer experience.
+- 🚚 Data Agnostic. Supply your site with data from anywhere, however you want!
+- ✂️ Automatic code and data splitting!
+- 💥 Instant navigation and page views
+- ☔️ Progressively Enhanced and mobile-ready
+- 🎯 SEO Friendly.
+- 🥇 React-centric developer experience.
 - 😌 Painless project setup & migration.
 - 💯 Supports 100% of the React ecosystem. Including CSS-in-JS libraries, custom Query layers like GraphQL, and even Redux.
-- 🔥 Hot Reloadable out-of-the-box. Edit React components & styles in real-time.
-- 📲 LAN accessible dev environment for testing on other devices like phones and tablets.
-
-## Videos & Tutorials
-
-- [Quick Start with Styled Components](https://www.youtube.com/watch?v=KvlTVZPlmgs) (20 min)
-- [Introducing React-Static! How it works and why we built it!](https://www.youtube.com/watch?v=OqbJ5swVpDQ) (80 min)
-- [Using React-Static to replace create-react-app](https://youtu.be/1pBzh7IM1s8) (5 min)
+- 🔥 Hot Reloadable out-of-the-box. Edit React components, styles and even data in real-time.
 
 ## Sites Built with React-Static
 
-- [React-Static.js.org](https://react-static.js.org) ([source](https://github.com/nozzle/react-static/tree/master/www))
-- [React-Charts.js.org](https://react-charts.js.org) ([source](https://github.com/nozzle/react-charts/tree/master/www))
-- [Nozzle.io](https://nozzle.io) ([source](https://github.com/nozzle/nozzle.io))
-- [Timber.io](https://timber.io)
+<details>
+ <summary>See a list of sites</summary>
+
 - [HeadlessCMS.org](https://headlesscms.org) ([source](https://github.com/netlify/headlesscms.org))
+- [StaticGen.com](https://staticgen.com) ([source](https://github.com/netlify/staticgen))
+- [Starbucks: Careers Hub](https://www.starbucks.com/careers/)([source](https://twitter.com/codehitchhiker/status/1097558315020832774))
+- [Starbucks: Rewards](https://www.starbucks.com/rewards/comingsoon)([source](https://twitter.com/davidbrunelle/status/1108041167935922176))
+- [Intuit Turbo](http://turbo.com)
+- [Timber.io](https://timber.io)
 - [Manta.life](https://manta.life) ([source](https://github.com/MantaApp/Website))
 - [Manticore Games](http://manticoregames.com)
 - [BlackSandSolutions.co](https://www.blacksandsolutions.co)
@@ -55,7 +51,6 @@ React-Static is a fast, lightweight, and powerful framework for building static-
 - [NYC Vintage Map](https://nycvintagemap.com)
 - [Eldar Labs - Utilities and Productivity Tools](https://eldarlabs.com)
 - [Dan Webb - Personal Website](https://danwebb.co) ([source](https://github.com/DanWebb/danwebb.co))
-- [Intuit Turbo](http://turbo.com)
 - [Messenger Corp. client asset ordering](http://chartwells.messengercorp.com/)
 - [Digital Neighborhood watch service](https://neighborhoodwatch.io/)
 - [Carmen Marcos Art - Artist Portfolio](http://carmen-marcos.art/) ([source](https://github.com/rafacm/carmen-marcos-art-portfolio))
@@ -63,115 +58,100 @@ React-Static is a fast, lightweight, and powerful framework for building static-
 - [Luke Haas - Personal Website](https://lukehaas.me)
 - [KleineKoning.nl - Webshop](https://kleinekoning.nl)
 - [blue-frontend.com - Company Website](https://blue-frontend.com)
+- [mmxp.com.br - MadeiraMadeira Experience](https://www.mmxp.com.br/)
+- [Fullstack HQ: Web Design & Development Team in the Philippines](https://fullstackhq.com/)
+- [Be Clever: Games for kids and parents](https://beclever.cc)
+- [Stoplight: Best in class API Design, Docs, Mocking, and Testing](https://stoplight.io) ([source](https://github.com/stoplightio/stoplight.io))
+- [WordFlow: Copywriting service](https://www.wordflow.ie/) ([source](https://github.com/nathanpower/wordflow-site))
+- [Amplify Credit Union](https://www.goamplify.com)
+- [Rebel Breath](https://www.rebelbreath.com/)
+- [Fourth Drive - Music Artist](https://fourthdrive.com)  ([source](https://gitlab.com/galmargalit1/fourth-drive))
+- [Weekly Best of JavaScript](https://weekly.bestofjs.org/) ([source](https://github.com/bestofjs/bestofjs-weekly))
+- [United Income - Company Website](https://unitedincome.com/)
+</details>
+
 
 ## Quick Start
 
-1.  Install the CLI:
+- Install the CLI tool:
 
 ```bash
-$ yarn global add react-static
+$ npm i -g react-static
 # or
-$ npm install -g react-static
+$ yarn global add react-static
 ```
 
-2.  Create a new project:
+- Start a new project!
 
 ```bash
 $ react-static create
 ```
 
-3.  Pick a template! [See the full list of templates](#examples-and-templates)
-4.  Navigate to your new project:
+- Need some help?
 
 ```bash
-$ cd my-static-site
+$ react-static --help
 ```
-
-5.  Start the dev server and edit some code!
-
-```bash
-$ yarn start # or react-static start
-```
-
-6.  Test a production build
-
-```bash
-$ yarn stage # or react-static build --staging
-$ yarn serve
-```
-
-6.  Build for production!
-
-```bash
-$ yarn build # or react-static build
-```
-
-Once you've installed and test driven sufficiently, you may want to:
-
-- [Read about the core concepts of React Static](/docs/concepts.md)
-- [Join the React Static Spectrum community!](https://spectrum.chat/react-static)
-
-* [Familiarize yourself with the API and all that is possible!](/docs/config.md)
-
-### Plugins
-
-- CSS & Style Tooling
-  - [react-static-plugin-emotion](https://github.com/nozzle/react-static-plugin-emotion) - Adds SSR support for Emotion components.
-  - [react-static-plugin-styled-components](https://github.com/nozzle/react-static-plugin-styled-components) - Adds SSR support for Styled-Components
-  - [react-static-plugin-sass](https://github.com/nozzle/react-static-plugin-sass) - Adds SSR and general support for SASS
-- React Alternatives
-  - [react-static-plugin-preact](https://github.com/nozzle/react-static-plugin-preact) - Adds preact support
-
-## Examples and Templates
-
-All of the following examples can be used as a template at project creation.
-
-- [Basic](https://github.com/nozzle/react-static/tree/master/examples/basic)
-- [Blank (Create-React-App)](https://github.com/nozzle/react-static/tree/master/examples/blank)
-- [Preact](https://github.com/nozzle/react-static/tree/master/examples/preact)
-- [Animated Routes](https://github.com/nozzle/react-static/tree/master/examples/animated-routes)
-- [Custom Routing](https://github.com/nozzle/react-static/tree/master/examples/custom-routing)
-- [Dynamic Imports (code-splitting)](https://github.com/nozzle/react-static/tree/master/examples/dynamic-imports)
-- [Emotion](https://github.com/nozzle/react-static/tree/master/examples/emotion)
-- [Styled-Components](https://github.com/nozzle/react-static/tree/master/examples/styled-components)
-- [LESS & Antdesign](https://github.com/nozzle/react-static/tree/master/examples/less-antdesign)
-- [Firebase Auth](https://github.com/nozzle/react-static/tree/master/examples/firebase-auth)
-- [Redux](https://github.com/nozzle/react-static/tree/master/examples/redux)
-- [Apollo GraphQL](https://github.com/nozzle/react-static/tree/master/examples/apollo)
-- [Apollo & Redux](https://github.com/nozzle/react-static/tree/master/examples/apollo-redux)
-- [TypeScript](https://github.com/nozzle/react-static/tree/master/examples/typescript)
-- [Cordova (Hybrid App)](https://github.com/nozzle/react-static/tree/master/examples/cordova)
-- [Basic Prismic (Headless CMS)](https://github.com/nozzle/react-static/tree/master/examples/basic-prismic)
-- [GraphCMS](https://github.com/nozzle/react-static/tree/master/examples/graphql-request)
-- [Sass](https://github.com/nozzle/react-static/tree/master/examples/sass)
-- [Tailwind CSS](https://github.com/nozzle/react-static/tree/master/examples/tailwindcss)
-- [Algolia](https://github.com/nozzle/react-static/tree/master/examples/algolia)
-- [Styled-JSX](https://github.com/nozzle/react-static/tree/master/examples/styled-jsx)
-- [Netlify CMS](https://github.com/nozzle/react-static/tree/master/examples/netlifycms)
-- [Gentics Mesh CMS](https://github.com/nozzle/react-static/tree/master/examples/gentics-mesh)
-- [Markdown](https://github.com/nozzle/react-static/tree/master/examples/markdown)
-- [Documentation](https://github.com/nozzle/react-static/tree/master/examples/documentation)
-
-Can't find an example? We invite you to write one! Simply copy the `basic` or `blank` templates and make the necessary changes. Then submit a PR including your new example directory and a new item in the list above. When merged, your example will automatically become a template in the CLI. How magical!
 
 ## Documentation
 
-#### [Core Concepts](/docs/concepts.md)
+- [Overview](/docs/)
+- [Core Concepts](/docs/concepts.md)
+- [Guides](/docs/guides/)
+- [Configuration](/docs/config.md)
+- [API](/docs/api.md)
+- [Plugins](/docs/plugins/)
 
-#### [API Reference](/docs/config.md)
+## Migration from a previous version?
 
-#### [Changelog](https://github.com/nozzle/react-static/blob/master/CHANGELOG.md)
+The [CHANGELOG](/CHANGELOG.md) contains information on breaking change for each major version. The latest breaking changes along with their migration tips are [located here](/CHANGELOG.md#700)
 
-#### [Contributing Guide](https://github.com/nozzle/react-static/blob/master/CONTRIBUTING.md)
+## What is a progressive static site?
 
-## Chat with us on the React Static Spectrum community!
+A progressive static site is a website where **every statically exported HTML page is an entry point to a fully-featured automatically-code-split React application**. Just like a normal static site, static progressive websites are capable of loading initial landing pages very quickly, but then extend the user experience by transforming invisibly into a single-page React application.
+
+Once a progressive static site page has loaded its React application it can then do amazing things!
+
+- Prefetch page assets
+- Instantly navigate between pages
+- Provide interactivity not possible in normal static sites
+- Subscribe to and display real-time and dynamic data
+- Anything you can imagine within a React application!
+
+# How does it work?
+
+![Flow Chart](https://github.com/react-static/react-static/raw/master/media/flow.png)
+
+React Static gathers your **data**, and **templates** together and intelligently splits them into bite-size static files using webpack and javascript. Once these files have been generated, React Static uses them to render and export a list of **routes** that you provide it into HTML files! After your site has been exported, the resulting **data**, **template**, and **html** files can be transfered to a static file server and browsed as an awesomely fast and performant static website!
+
+But remember, a progressive static site is more than that...
+
+Little did you know that when React Static exported your site, it also generated **a tiny, optimized, and code-split version of your original React application for every page of your site**! After these pages have loaded, React **invisibly** mounts this application to the existing HTML on the page and... 🎉🎉🎉 You are now using the single page React application you originally built! **This application is special, though!** While you browse your website, **pages that you might go to next are automatically preloaded, making navigation to them instantaneous!**.
+
+That's just the beginning! With React Static, you can unleash your creativity and build anything you can imagine with speed and productivity. It even has **awesome plugins** that will help you on your journey!
+
+## Coming from Create React App?
+
+React Static is also a great replacement for the ever popular Create React App CLI. It provides a similar developer experience, zero-config environment, and features, but **without boxing you in.** If you ever need to customize your build system in React Static, there is no need to eject! You can use existing plugins or write your own to customize anything you'd like about the build system. Not building a static site? No worries there, React Static works as an SPA too, even if there is only a single `index.html` file.
+
+## Articles, Videos & Tutorials
+
+- Articles
+  - [Introduction and Motivations behind React Static](https://medium.com/@tannerlinsley/%EF%B8%8F-introducing-react-static-a-progressive-static-site-framework-for-react-3470d2a51ebc)
+  - [React Static v6!](https://medium.com/@tannerlinsley/react-static-v6-8dbe9fd202d4)
+- Videos & Tutorials
+  - [Quick Start with Styled Components](https://www.youtube.com/watch?v=KvlTVZPlmgs) (20 min)
+  - [Introducing React-Static! How it works and why we built it!](https://www.youtube.com/watch?v=OqbJ5swVpDQ) (80 min)
+  - [Using React-Static to replace create-react-app](https://youtu.be/1pBzh7IM1s8) (5 min)
+
+## Support, Community & Chat
 
 Need some help? Have a quick question? [Click here to sign up for the React-Tools spectrum community](https://spectrum.chat/react-static)! We are constantly answering questions, discussing features and helping each other out!
 
-## Contributing
+## Contributing, Issues & Bugs
 
-We are always looking for people to help us grow `react-static`'s capabilities and examples. If you have an issue, feature request, or pull request, let us know!
+We are always looking for people to help us grow `react-static`'s capabilities and examples. If you have [found a bug, or have a feature request](https://github.com/react-static/react-static/issues/new) let us know!
 
 ## License
 
-React Static uses the MIT license. For more information on this license, [click here](https://github.com/nozzle/react-static/blob/master/LICENSE).
+React Static uses the MIT license. For more information on this license, [click here](/LICENSE).
